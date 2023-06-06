@@ -1,0 +1,28 @@
+/*Fahad Mohammed  <!== CSS Comment
+     Feb 12, 2021
+     Project 3 */
+
+body
+   {
+    background-color:rgb(255, 238, 0);/* this is the backgroung color for the web page*/   
+    border:2px solid;/* this if for the boder of the box*/
+    border-radius: 5px;/*this is for the radius of the box*/
+    font-family:Arial, Helvetica, sans-serif, Georgia ;/* this is the fonts used on the web page*/ 
+    text-align: center;/*This aligns the text to the center*/
+    color:red;  /*This is the color for the rext*/
+    font-weight:bold; /*This turns the font to bold*/
+    
+ }
+    
+button
+{
+    font-weight: bold; /*This turns the font to bold*/
+    padding: 7px; /*This gives the padding to the button*/
+    font-size: 14px;/* this is the fonts used on the button*/
+    border-radius: 5px;/*this is for the radius of the button box*/
+}
+ 
+button:hover
+{
+    background-color:rgb(255, 0, 0) ;/* this is the backgroung color for the button when you hover your mouse on the button*/ 
+}

@@ -1,0 +1,37 @@
+<!-- Fahad Mohammed  <== HTML Comment
+     Feb 12, 2021
+     Project 3 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Latto Simulator</title> <!-- This is the title tag-->
+        <meta charset="UTF-8"><!-- it gives the info about the special char set-->
+        <script src="script.js"></script> <!-- connects the js to html-->
+        <link rel="stylesheet" href="project 3.css"> <!--This is connecting the CSS file to the main-->
+    </head>
+    <body>
+        <h1>Latto Simulator</h1> <!-- This displays Heading 1 -->
+        <label for="drawBall"> <!-- This is the lable for the Draw Ball Slider-->
+                Number of Lotto Balls 
+                <span id="numLottoBalls"></span> <!--This marks up the text-->
+        </label>
+        <input type="range" min="1" max="5" id="drawBall"><!--This shows slider on the page-->
+        <br>
+        <label for="ballRange"> <!-- This is the lable for the Draw ball Range Slider-->
+            Number of Lotto Balls to play with
+            <span id="numLottoRange"></span> <!--This marks up the text-->
+    </label>
+    <input type="range" min="1" max="5" id="ballRange"><!--This shows slider on the page-->
+    <br><br>
+
+
+        <img id="1"><!--This Displays the images of the balls-->
+        <img id="2"><!--This Displays the images of the balls-->
+        <img id="3"><!--This Displays the images of the balls-->
+        <img id="4"><!--This Displays the images of the balls-->
+        <img id="5"><br><!--This Displays the images of the balls-->
+        <button id="btn">Get Balls</button><!--This is the Button on the Page to get the balls-->
+        <br>
+
+    </body>
+</html>
